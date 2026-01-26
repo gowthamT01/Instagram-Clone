@@ -6,7 +6,7 @@ function Sidebar() {
     <div className='m-3'>
 
     <div className="d-flex flex-column gap-3 fs-5">
-      <img className="logo-text ms-3/*" src="./src/assets/instagram-text.png" style={{ transform: "scale(1.4) " }}
+      <img className="logo-text ms-3" src="./src/assets/instagram-text.png" style={{ transform: "scale(1.4) " }}
  alt="" />
       <div><i class="bi bi-house"></i>Home</div>
       <div><i class="bi bi-search"></i>Search</div>
