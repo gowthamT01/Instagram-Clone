@@ -11,3 +11,25 @@
 .bi{
   margin-right: 10px;
 }
+.story{
+  height: 80px;
+}
+.dp{
+  height: 20px;
+  margin:5px 5px 0px 0px;
+}
+.image{
+  width: 400px;
+  
+
+}
+.suggestions{
+
+
+}
+.suggetion h5{
+  font-size: 60px;
+}
+.suggestions .dp{
+  margin-top: 0px !important;
+}

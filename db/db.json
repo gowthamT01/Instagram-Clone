@@ -5,9 +5,9 @@
       "user": {
         "id": 101,
         "username": "john_doe",
-        "profile_pic": "src/assets/profile_pic2.jpeg"
+        "profile_pic": "src/assets/profile-1.jpg"
       },
-      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpg",
+      "image": "src/assets/feed-img-1.jpg",
       "caption": "Beautiful sunset 🌅 #Nature",
       "likes": 120,
       "comments": [
@@ -29,9 +29,9 @@
       "user": {
         "id": 102,
         "username": "emma_stone",
-        "profile_pic": "src/assets/profile_pic3.jpeg"
+        "profile_pic": "src/assets/profile-2.jpg"
       },
-      "image": "src/assets/bird-8788491_1280.jpg",
+      "image": "src/assets/feed-img-2.jpg",
       "caption": "Morning vibes ☀️🕊️",
       "likes": 89,
       "comments": [
@@ -48,13 +48,48 @@
       "user": {
         "id": 103,
         "username": "alex_92",
-        "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpg"
+        "profile_pic": "src/assets/profile-3.jpg"
       },
-      "image": "src/assets/clutha-nature-picture.jpg",
+      "image": "src/assets/feed-img-3.jpg",
       "caption": "Nature therapy 🍃💚",
       "likes": 203,
       "comments": [],
       "timestamp": "2025-02-13T17:45:00Z"
     }
+  ],
+  "profile":{
+
+     "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile-1.jpg"
+      
+  },
+  "suggestions":[ {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile-1.jpg"
+      },
+      {
+        "id": 102,
+        "username": "emma_stone",
+        "profile_pic": "src/assets/profile-2.jpg"
+      },
+      {
+        "id": 103,
+        "username": "alex_92",
+        "profile_pic": "src/assets/profile-3.jpg"
+      },
+      
+      {
+        "id": 104,
+        "username": "gowthu_01",
+        "profile_pic": "src/assets/profile-2.jpg"
+      },
+      {
+        "id": 105,
+        "username": "Anonymous",
+        "profile_pic": "src/assets/profile-3.jpg"
+      }
+
   ]
 }
