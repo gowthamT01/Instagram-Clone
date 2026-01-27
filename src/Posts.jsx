@@ -13,7 +13,7 @@ useEffect(()=>{
     <div className="d-flex justify-content-center" >
       {posts.length>0?(
            <div >{posts.map((post)=>(
-            <div className='my-3' key={post.id}>
+            <div className='my-3 mt-4' key={post.id}>
                
                 <div className='d-flex'>
                     <img className='dp rounded-circle' src={post.user.profile_pic} alt="profile pic" />

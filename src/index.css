@@ -12,7 +12,7 @@
   margin-right: 10px;
 }
 .story{
-  height: 80px;
+  height: 100px;
 }
 .dp{
   height: 20px;
@@ -23,13 +23,25 @@
   
 
 }
-.suggestions{
 
-
-}
 .suggetion h5{
   font-size: 60px;
 }
 .suggestions .dp{
   margin-top: 0px !important;
+}
+.story-dp{
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+}
+
+.gradient-border {
+width: 85px;
+height: 85px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius:50%;
+background:linear-gradient(45deg, #ff00ff, #ff1900, #ffcc00);
 }

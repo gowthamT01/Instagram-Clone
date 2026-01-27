@@ -4,7 +4,7 @@
       "id": 1,
       "user": {
         "id": 101,
-        "username": "john_doe",
+        "username": "gowthu_01",
         "profile_pic": "src/assets/profile-1.jpg"
       },
       "image": "src/assets/feed-img-1.jpg",
@@ -13,7 +13,7 @@
       "comments": [
         {
           "id": 1,
-          "user": "alice_wonder",
+          "user": "jaga_01",
           "comment": "Wow! Amazing shot 📸"
         },
         {
@@ -28,7 +28,7 @@
       "id": 2,
       "user": {
         "id": 102,
-        "username": "emma_stone",
+        "username": "sparrow_media._",
         "profile_pic": "src/assets/profile-2.jpg"
       },
       "image": "src/assets/feed-img-2.jpg",
@@ -37,7 +37,7 @@
       "comments": [
         {
           "id": 1,
-          "user": "john_doe",
+          "user": "tamil",
           "comment": "Peaceful 😍"
         }
       ],
@@ -47,7 +47,7 @@
       "id": 3,
       "user": {
         "id": 103,
-        "username": "alex_92",
+        "username": "harsha._",
         "profile_pic": "src/assets/profile-3.jpg"
       },
       "image": "src/assets/feed-img-3.jpg",
@@ -60,36 +60,100 @@
   "profile":{
 
      "id": 101,
-        "username": "john_doe",
-        "profile_pic": "src/assets/profile-1.jpg"
+        "username": "kadir",
+        "profile_pic": "/src/assets/profile-1.jpg"
       
   },
   "suggestions":[ {
         "id": 101,
-        "username": "john_doe",
-        "profile_pic": "src/assets/profile-1.jpg"
+        "username": "hari",
+        "profile_pic": "/src/assets/profile-1.jpg"
       },
       {
         "id": 102,
-        "username": "emma_stone",
-        "profile_pic": "src/assets/profile-2.jpg"
+        "username": "likhin._",
+        "profile_pic": "/src/assets/profile-2.jpg"
       },
       {
         "id": 103,
-        "username": "alex_92",
-        "profile_pic": "src/assets/profile-3.jpg"
+        "username": "gowthu",
+        "profile_pic": "/src/assets/profile-3.jpg"
       },
       
       {
         "id": 104,
-        "username": "gowthu_01",
-        "profile_pic": "src/assets/profile-2.jpg"
+        "username": "jeeva",
+        "profile_pic": "/src/assets/profile-2.jpg"
       },
       {
         "id": 105,
-        "username": "Anonymous",
-        "profile_pic": "src/assets/profile-3.jpg"
+        "username": "naruto._",
+        "profile_pic": "/src/assets/profile-3.jpg"
       }
 
+  ],
+  "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "gowthu_01",
+        "profile_pic": "/src/assets/dp-1.jpg"
+      },
+      "image": "/src/assets/story-1.jpg"
+      
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sparrow_media._",
+        "profile_pic": "/src/assets/dp-2.jpg"
+      },
+      "image": "/src/assets/story-2.jpg"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "harsha._",
+        "profile_pic": "/src/assets/dp-3.jpg"
+      },
+      "image": "/src/assets/story-3.jpg"
+      
+    }
+    ,
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "prakash._",
+        "profile_pic": "/src/assets/dp-4.jpg"
+      },
+      "image": "/src/assets/story-4.jpg"
+      
+    }
+    ,
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "suva._",
+        "profile_pic": "/src/assets/dp-5.jpg"
+      },
+      "image": "/src/assets/story-5.jpg"
+      
+    }
+    ,
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "harsha._",
+        "profile_pic": "/src/assets/dp-6.jpg"
+      },"image": "/src/assets/story-6.jpg"
+      
+      
+    }
   ]
 }
