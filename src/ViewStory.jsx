@@ -23,9 +23,16 @@ if(id>tot || id<=0){
        
         <div className='d-flex justify-content-center align-items-center' >
 
-        <Link to={`/story/${Number(id)-1}/${tot}`}><i class="bi bi-arrow-left-circle-fill"></i></Link>
-         <img className="vh-100 " src={story.image} alt="stry" />
-        <Link to={`/story/${Number(id)+1}/${tot}`}><i class="bi bi-arrow-right-circle-fill"></i></Link>
+        <Link to={`/story/${Number(id)-1}/${tot}`} className=""><i class="bi bi-arrow-left-circle"></i></Link>
+       <div className="story-container mx-auto ">
+  <img
+    src={story.image}
+    alt="story"
+    className="story-img "
+  />
+</div>
+
+        <Link to={`/story/${Number(id)+1}/${tot}`}><i class="bi bi-arrow-right-circle"></i></Link>
         </div>
       ) : (
         <div>Loading...</div>

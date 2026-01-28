@@ -19,7 +19,7 @@ function Suggestions() {
   }, []);
   return (
     <div>
-      <div className="suggestions w-75 m-4">
+      <div className="suggestions w-75 m-4 ">
         {profile ? (
           <div className="d-flex">
             <img
@@ -27,7 +27,7 @@ function Suggestions() {
               src={profile.profile_pic}
               alt="profile pic"
             />
-            <h5>{profile.username}</h5>
+            <h6 className="mt-1">{profile.username}</h6>
             <small className="ms-auto text-primary">Switch</small>
           </div>
         ) : (
@@ -45,8 +45,8 @@ function Suggestions() {
                   <div className="d-flex">
 
                   <img className="dp rounded-circle" src={suggestion.profile_pic} alt="" />
-                  <h5>{suggestion.username}</h5>
-                  <p className="text-primary ms-auto">Follow</p>
+                  <h6 className="mt-2">{suggestion.username}</h6>
+                  <p className="text-primary ms-auto mt-2">Follow</p>
                   </div>
                   </div>
                  ))}
@@ -56,6 +56,29 @@ function Suggestions() {
              )}
          </div>
       </div>
+      <footer className="container text-center text-secondary small mt-5 py-3">
+  <div className="row justify-content-center">
+    <div className="col-12 d-flex flex-wrap justify-content-center gap-2">
+      <a href="#" className="text-secondary text-decoration-none">About</a>
+      <a href="#" className="text-secondary text-decoration-none">Help</a>
+      <a href="#" className="text-secondary text-decoration-none">Press</a>
+      <a href="#" className="text-secondary text-decoration-none">API</a>
+      <a href="#" className="text-secondary text-decoration-none">Jobs</a>
+      <a href="#" className="text-secondary text-decoration-none">Privacy</a>
+      <a href="#" className="text-secondary text-decoration-none">Terms</a>
+      <a href="#" className="text-secondary text-decoration-none">Locations</a>
+      <a href="#" className="text-secondary text-decoration-none">Language</a>
+      <a href="#" className="text-secondary text-decoration-none">Meta Verified</a>
+    </div>
+  </div>
+
+  <div className="row mt-3">
+    <div className="col-12 text-uppercase">
+      © 2026 Instagram from Meta
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 }
