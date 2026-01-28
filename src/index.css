@@ -62,3 +62,18 @@ justify-content: center;
 border-radius:50%;
 background:linear-gradient(45deg, #ff00ff, #ff1900, #ffcc00);
 }
+.profile{
+  width: 100px;
+  height: 100px;
+}
+.mypost{
+  width: 300px;
+  height: 400px;
+}
+.profile-image{
+  width: 150px;
+  height: 150px;
+}
+.profile-bg{
+  width: 600px;
+}
